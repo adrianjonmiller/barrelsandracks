@@ -1,0 +1,135 @@
+/* Written by Austin de Coup-Crank of Fish Creative Design Studio; http://fishcreative.com/ */
+body {background:#372e27 url(../img/bg.jpg) left center fixed; color:#fff;font-family:"Times New Roman",times,serif;}
+body.recycling, body.post-type-archive-products {background-image:url(../img/metal2.jpg);background-color:gray;}
+#wrap {margin:0 auto;max-width:960px;}
+.container, #content .container {width:100%; margin:0 auto; z-index:1;}
+.span-24 {width:100%; max-width:1280px;}
+#content img {max-width:100%; margin-right:2em;}
+#content, #products-intro {
+	background:#600313;
+	background:rgba(96,3,19,0.8);
+	padding:1em;
+	-moz-box-shadow:0px 0px 30px #000;
+	-webkit-box-shadow:0px 0px 30px #000;
+	box-shadow:0px 0px 30px #000;
+	-moz-border-radius:2em;
+	-webkit-border-radius:2em;
+	border-radius:2em;
+	z-index:100;
+}
+#products-intro {background:#1f497d;margin-bottom:1em;}
+#products-intro p {font-size: 16px;text-align:center;}
+.recycling #content, .post-type-archive-products #content {background:#1f497d;}
+.recycling #content img {margin:3em 2em}
+.recycling #content p {margin:0 0 2em 0;}
+.title-home {height:85px; background:transparent url(../img/title-home.png) no-repeat center top;}
+.title-racks {height:143px; background:transparent url(../img/title-racks.png) no-repeat center top;}
+.title-barrels {height:143px; background:transparent url(../img/title-barrels.png) no-repeat center top;}
+.title-recycling {height:144px; background:transparent url(../img/title-recycling.png) no-repeat center top;}
+.title-contact {height:137px; background:transparent url(../img/title-contact.png) no-repeat center top;}
+#content h3, #content p {margin:0 0 1em 1em;padding: 0 1em;}
+#content h3 {margin:1em 0 1em 0;font-size:2em;text-decoration:underline}
+#content h4 {margin:1em 0 1em 2em;font-size:1.5em}
+#content p, #content ol, #content ul {
+	line-height:1.7;
+	font-size:12pt;
+	-moz-text-shadow:1px 2px rgba(0,0,0,0.5);
+	-webkit-text-shadow:1px 2px rgba(0,0,0,0.5);
+	text-shadow:1px 2px rgba(0,0,0,0.5);
+	max-width:600px;
+	min-width:200px;
+	margin:0 0 1em 2em;
+}
+#content ol, #content ul {line-height:1.2}
+#content ol, #content ul {margin:0 0 1em 3.5em;}
+.main-image {float:right;margin:0 0 2em 1em;}
+#content img {
+	-moz-box-shadow:0px 0px 15px #000;
+	-webkit-box-shadow:0px 0px 15px #000;
+	box-shadow:0px 0px 15px #000;
+}
+#menu-primary-navigation li {position:relative;}
+#menu-primary-navigation li a {padding:0 0.5em}
+#menu-primary-navigation li:before {content:'\2022';position:absolute;left:-5px;font-size:12pt}
+#menu-primary-navigation li:first-child:before {content:''}
+/*.frame-container {position:relative;float:right;margin:1em 2em;}*/
+/*.frame {margin:0;background:transparent url(../img/frame.png) no-repeat left top;position:absolute;z-index:100; float:right; position:absolute;}*/
+.small-title {text-transform:uppercase; font-size:1em; display:block; margin:0 0 1em 0}
+#contact {
+	text-align:center;
+	font-size:1.3em;
+	font-weight:bold;
+}
+#contact p {font-style:italic; margin-bottom:0.2em;}
+footer {
+	padding: 0 0 53px 0;
+	background:transparent url(../img/footer.png) no-repeat center bottom;
+}
+a {color:#fff;}
+a:hover {color:#fff;}
+
+/* Addenda */
+
+.racks #main h3, .barrels h4 {
+	display:inline-block;
+	padding:0.2em 0.4em;
+	border:1px solid #fff;
+	margin:0 0 0.5em 1em;
+	text-decoration:none;
+}
+p#planters {margin-bottom:6em;}
+.recycling #main p {margin:0 auto;}
+body.home #content p {text-align:center}
+div#contact-form {float:left;}
+div#business-card {
+	float:right;
+	padding:2em;
+	width:350px;
+	margin:0 2em 0 0;
+}
+.contact #content p {margin:0 0 2em 0}
+.home #intro-p {float:left; max-width:380px;}
+@media screen and (min-width: 975px) {
+	#slideshow-wrapper0 {
+		position: absolute;
+		left: 50%;
+		float: right;
+	}
+}
+.post-type-archive-products h2 {text-align:center;}
+#content .cc-products {
+	background:#1f497d;
+	clear:left;
+	padding:1em;
+	min-height:80px;
+	z-index:1000;
+	position:relative;
+}
+.cc-products .wp-post-image {float:left;width:75px;height:75px;}
+#content .cc-products h2 {
+	color:#fff;
+	margin:0;
+	padding:0;
+	font-size:1.5em;
+	text-align:left;
+}
+.post-type-archive-products #content p {
+	color:#fff;
+	line-height:1.3;
+	text-shadow:none;
+	margin:0 0 1em 0;
+	padding:0;
+	max-width:100%;
+}
+.cc-products td {padding:1em}
+#content .even {background:#376092;}
+
+@media screen and (max-width: 975px) {
+	#slideshow-wrapper0 {
+		float:none !important;
+		margin:0 auto !important;
+		width:479px;
+	}
+	.home #content #intro-p {max-width:70%; width:70%;min-width:200px;margin:1em auto;float:none}
+}
+
